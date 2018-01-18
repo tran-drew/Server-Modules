@@ -1,6 +1,9 @@
 package main
-import ("fmt"
-		"net")
+
+import (
+	"fmt"
+	"net"
+)
 
 func main() {
 	fmt.Println("Hello World")
@@ -9,7 +12,7 @@ func main() {
 
 	fmt.Print(listener.Addr())
 
-	if(err != nil) {
+	if err != nil {
 		fmt.Println(err)
 	}
 
